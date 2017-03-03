@@ -21,7 +21,6 @@ public class AnalizadorAccesosAServidor
             Scanner sc = new Scanner(archivoALeer);
             while (sc.hasNextLine()) {
                 String lineaLeida = sc.nextLine();               
-                
                 Acceso accesoActual = new Acceso(lineaLeida);
                 
                 accesos.add(accesoActual);
