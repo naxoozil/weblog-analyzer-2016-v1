@@ -1,6 +1,8 @@
 import java.io.File;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AnalizadorAccesosAServidor
 {
@@ -59,12 +61,15 @@ public class AnalizadorAccesosAServidor
         
         return valorADevolver;
     }
-
-    
     
     public String paginaWebMasSolicitada() 
     {
-        return "";
+        String paginaADevolver = "";
+        
+        if (!accesos.isEmpty()) {
+            
+        }
+        return paginaADevolver;
     }
     
     public String clienteConMasAccesosExitosos()
