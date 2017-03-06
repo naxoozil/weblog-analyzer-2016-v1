@@ -64,7 +64,7 @@ public class AnalizadorAccesosAServidor
     
     public String paginaWebMasSolicitada() 
     {
-        String paginaADevolver = "";
+        String paginaADevolver = null;
         Map<String, Integer> nombreMap = new HashMap<String,Integer>();
         if (!accesos.isEmpty()) {
             for (Acceso accesoActual : accesos){
